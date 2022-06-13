@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" thread-count="3" data-provider-thread-count="2" verbose="1">
+    <test name="testsmusala">
+        <classes>
+            <class name = "musala.tests.TestMusala">
+                <methods>
+                    <include name="TESTMUSALA"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
